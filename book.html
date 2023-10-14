@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LET'S GO TRAVEL</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./travelweb.css">
+    <!-- icon -->
+    <link rel="icon" type="image/x-icon" href="./PICTURES/logo-removebg-preview.png">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- remixicon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,500&family=Caprasimo&family=Cinzel:wght@600&family=DM+Sans:wght@300&family=Dancing+Script:wght@400;500&family=Hind+Siliguri:wght@700&family=Josefin+Sans&family=Kaushan+Script&family=Lilita+One&family=Open+Sans:wght@300&family=REM:wght@500&family=Raleway:ital,wght@1,100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="row mt-5 mb-5">
+                    <div class="col-6">
+                        <img src="https://images.pexels.com/photos/3889764/pexels-photo-3889764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="300px" width="100%" alt="">
+                        <br><br>
+                        <img src="https://www.summerislandmaldives.com/wp-content/uploads/2022/08/dining-delights-mob-feat.jpg" height="400px" width="100%" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img src="https://images.pexels.com/photos/2964163/pexels-photo-2964163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="400px" width="100%" alt="">
+                        <br><br>
+                        <img src="https://images.pexels.com/photos/5635734/pexels-photo-5635734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="300px" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="book mt-5 text-center fw-bold">BOOK YOUR TRAVEL</h2>
+                <form  class=" form p-3 rounded mt-5 mx-auto mb-5 bg-secondary" ><!-- mx-auto to bring center the form    nd rounded for border-radius-->
+                    <div class="mb-3">
+                      <label for="fname" class="form-label">First Name</label>
+                      <input type="text" class="form-control" placeholder="First Name" id="fname"><!-- form cntrl give box highlight look -->
+                      <label for="lname" class="form-label">Last Name</label>
+                      <input type="text" class="form-control" placeholder="Last Name" id="lname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="dot" class="form-label">Date Of Travel</label>
+                        <input type="date" class="form-control" placeholder="Date Of Travel" id="dot">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label ">Email</label>
+                        <input type="email" class="form-control" placeholder="Email" id="email" >
+                      </div>
+                    <div class="mb-3">
+                        <label for="nop" class="form-label">How Many Person</label>
+                        <input type="number" class="form-control" placeholder="How Many Person" id="nop">
+                    </div>
+        
+                    <div class="mb-3">
+                        <label for="plc">Destination</label>
+                        <select id="plc" name="plc">
+                            <option value="thailand">THAILAND</option>
+                            <option value="goa">GOA</option>
+                            <option value="maldives">MALDIVES</option>
+                            <option value="london">LONDON</option>
+                            <option value="japan">JAPAN</option>
+                            <option value="greece">GREECE</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="not">Notes</label>
+                        <textarea id="not" cols="14" rows="3"></textarea>
+                    </div>
+                   <div class="d-flex justify-content-evenly"><!-- this class is given for bring them to center nd evenly to give spca b/w -->
+                     <button type="submit" class="btn btn-primary" style="width: 45em;">BOOK</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="footer" class="mt-5">
+        <div class="upper-footer">
+          <div class="up-left">
+            <div class="image">
+              <img src="./PICTURES/logo2-removebg-preview.png" class="ms-4" height="200px"  alt="">
+            </div>
+            <div class="content">
+              <h2 class="footer-heading">ABOUT US</h2>
+              <p class="description">
+                Explore new cultures, meet new people, and create memories that will last a lifetime..WITH US
+              </p>
+            </div>
+          </div>
+          <div class="up-right">
+            <h2 class="footer-heading ms-5">FOLLOW US ON</h2>
+            <ul>
+              <li class="linkedin">
+                <a href="https://github.com/login">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li class="instagram">
+                <a href="https://github.com/login">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li class="youtube">
+                <a href="https://github.com/login">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li class="github">
+                <a href="https://github.com/login">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      
+      
+        <!--  -->
+        <div class="down-footer">
+          <p class="leftpara">Designed by Anjaly Prakash <i class="fa-regular fa-face-grin-hearts" style="color: rgb(239, 22, 22);"></i></p>
+          <ul class="footer-li">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./destination.html">DESTINATIONS</a></li>
+            <li><a href="./packages.html">PACKAGES</a></li>
+            <li><a href="./review.html">REVIEWS</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+      
+          </ul>
+        </div>
+      </footer>
+</body>
+</html>
