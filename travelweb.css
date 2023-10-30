@@ -65,12 +65,13 @@
   background-image: linear-gradient(to bottom right,skyblue,violet);
 }
 
-.contact button{
+.contact-button{
   align-items: center; 
   justify-content: center; 
   display: flex;   
   background-image:linear-gradient(to top left,black ,grey); 
-  margin-left: 9em;
+  margin: -20px 8em;
+  width: 190px;
 }
 
 
@@ -402,4 +403,10 @@
 
 .p-img:hover img {
   transform: scale(1.5);
+}
+
+/* ----------------------------blog--------------------------- */
+
+.blog-img img :hover{
+  box-shadow: 2px 1px 3px 5px grey;
 }
